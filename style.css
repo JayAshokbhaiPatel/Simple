@@ -1,0 +1,41 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  /* To Set BG Image */
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1
+{
+  color: #e2dbdb;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.btn
+{
+  border-radius: 200px;
+  padding: 2rem;
+  font-size: 500;
+  text-transform: uppercase;
+}
+.btn-primary
+{
+  background-color: orangered;
+  border-color: orangered;
+  border-width: 5px;
+}
+.btn-primary:hover
+{
+  background-color: orangered;
+  border-color: orangered;
+}
+.empty
+{
+  height: 7rem;
+}
